@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Rukopis";
+  src: url("/Rukopis.ttf");
+}
+html {
+
+  background-image: url(/background.jpg);
+  
+  background-repeat: no-repeat;
+  
+  background-position: center center;
+  
+  background-attachment: fixed;
+  
+  -webkit-background-size: cover;
+  
+  -moz-background-size: cover;
+  
+  -o-background-size: cover;
+  
+  background-size: cover;
+  
+  }
+
+* {
+  color: white;
+  font-size: 40pt;
+  font-family: 'Rukopis';
+  text-align: center;
+  align-items: center;
+  align-content: center;  
+}
+
+div {
+    align-content: center;
+    align-items: center;
+}
+
+#content {
+  display: flex;
+}
+
+em{
+    font-weight: 600;
+    animation: .3s 0s 1 text normal both running linear;
+    display: block;
+}
+
+@keyframes text {
+  0% {
+    transform: translateY(-40px) rotate(45deg);
+    opacity: 0;
+  }
+}
