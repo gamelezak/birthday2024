@@ -1,5 +1,4 @@
 let text1 = 'Счастливого   Дня   Рождения!!!'
-let text2 = 'Счастья здоровья и всего самого наилучшего'
 let content = document.querySelector('#content')
 
 for (let i in [...text1]) {

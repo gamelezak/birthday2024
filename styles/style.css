@@ -19,21 +19,35 @@ html {
   -o-background-size: cover;
   
   background-size: cover;
+
+  
+
   
   }
 
 * {
-  color: white;
-  font-size: 40pt;
+  color : red;
+    font-size: 40pt;
   font-family: 'Rukopis';
   text-align: center;
   align-items: center;
-  align-content: center;  
+  align-content: center; 
+  
 }
 
 div {
     align-content: center;
     align-items: center;
+    backdrop-filter: blur(1px);
+    height : auto;
+    width : auto;
+}
+
+.box{
+  border-color : black;
+  opacity: 1;
+  width: 400px;
+  height: 200px;
 }
 
 #content {
@@ -52,3 +66,4 @@ em{
     opacity: 0;
   }
 }
+
