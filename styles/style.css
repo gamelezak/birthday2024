@@ -7,7 +7,7 @@ body {
 p, a {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
-  font-smoothing: antialiased;
+  font-smooth: antialiased;
   margin: 0.8em 0;
   font-size: 18px;
   color: rgb(85, 187, 144);
