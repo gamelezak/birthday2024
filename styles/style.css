@@ -23,13 +23,13 @@ p, a {
   margin-top: -130px;
   position: absolute;
   height: 300px;
-  width: 900px;
+  width: 600px;
   left: 50%;
   top: 50%;
 }
 
 #animate {
-  text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
+  text-shadow: 0 0 8px rgba(165, 209, 200, 0.1);
   position: absolute;
   color: #284f49;
   bottom: 0;
