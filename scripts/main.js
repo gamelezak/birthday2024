@@ -176,4 +176,3 @@
   initialise();
 
 }).call(this);
-
